@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".materi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A. Sejarah Perkembangan Komputer
+Komputer pada saat ini telah masuk pada seluruh sendi kehidupan kalian.
+Komputer saat ini sangat terjangkau dan memiliki banyak bentuk. Komputer
+tidak lagi berbentuk desktop, tetapi juga dapat berbentuk laptop, ponsel pintar,
+jam tangan, kacamata, bahkan menyatu dengan beragam benda yang kita
+sebut sebagai internet of things. Akan tetapi, tidak banyak yang mengetahui
+bahwa komputer memiliki sejarah yang sangat panjang. Ternyata, sejarah
+mesin komputasi dimulai bahkan jauh sebelum Masehi, yaitu +/- 2400 BC
+dengan abacus, sebelum mesin elektronik pertama diciptakan. Komputer
+kemudian dapat diprogram, yang dirancang oleh Charles Babbage, dengan
+pemrogram pertamanya ialah seorang wanita bernama Ada Lovelace.
+Model komputasi yang melahirkan komputer elektronik
+yang dipakai saat ini ialah Mesin Turing. Mesin ini diciptakan
+oleh Alan Turing. Mesin Turing merupakan model komputasi,
+sebuah mesin abstrak yang mengolah simbol pada sepotong
+pita dengan mengacu ke sebuah tabel aturan. Walaupun sangat
+sederhana, diberikan sebuah algoritma komputer, sebuah
+Mesin Turing dapat menyimulasi logika algoritma yang dirancang. Mesin abstrak sederhana ini menjadi dasar
+pengembangan bahasa-bahasa pemrograman dan teori otomata yang mendasari
+otomasi. Perhatikan bahwa perkembangan perangkat keras dan perangkat lunak
+selalu dimulai dari model abstrak. Ini membuktikan, bahwa berpikir komputasional
+selalu mendahului dan mendorong lahirnya teknologi."
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
